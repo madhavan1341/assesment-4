@@ -53,13 +53,13 @@ const resume = {
   ]
 };
 
-// Using 'for' loop
+// Using "'for"' loop
 console.log("Using 'for' loop:");
 for (let key in resume) {
   console.log(key + ": " + resume[key]);
 }
 
-// Using 'for...in' loop
+// Using '"for...in'" loop
 console.log("\nUsing 'for...in' loop:");
 for (let key in resume) {
   if (resume.hasOwnProperty(key)) {
@@ -67,7 +67,7 @@ for (let key in resume) {
   }
 }
 
-// Using 'forEach' loop on education array
+// Using '"forEach'" loop on education array
 console.log("\nUsing 'forEach' loop on education array:");
 resume.education.forEach((edu) => {
   console.log("Degree: " + edu.degree);
@@ -75,7 +75,7 @@ resume.education.forEach((edu) => {
   console.log("Year: " + edu.year);
 });
 
-// Using 'for...of' loop on skills array
+// Using 'f"or...of'" loop on skills array
 console.log("\nUsing 'for...of' loop on skills array:");
 for (let skill of resume.skills) {
   console.log(skill);
